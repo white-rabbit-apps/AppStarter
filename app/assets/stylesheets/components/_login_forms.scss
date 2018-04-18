@@ -3,7 +3,7 @@
   flex-direction: column;
   background: white;
   width: 390px;
-  height: 600px;
+  height: 450px;
   margin: 0 auto;
   margin-top: 55px;
   border: solid #f0f0f0 0.5px;
@@ -99,6 +99,7 @@
   .login_link_singup {
     padding-top: 60px;
     font-size: 15px;
+    text-align: center;
 
     a {
       font-weight: bolder;
@@ -110,7 +111,7 @@
 
 .grey-background-body {
   display: flex;
-  height: 800px;
+  padding-bottom: 50px;
   background-color: #f0f0f0;
   font-family: Helvetica;
   font-weight: lighter;

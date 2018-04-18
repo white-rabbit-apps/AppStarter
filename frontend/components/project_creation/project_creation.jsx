@@ -49,7 +49,7 @@ class ProjectCreationForm extends React.Component {
   }
 
   redirect() {
-    this.props.history.push('/login')
+    this.props.history.push('/connect')
   }
 
   render() {

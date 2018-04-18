@@ -49,7 +49,7 @@ class LoginForm extends React.Component {
       <div className="grey-background-body">
         <div className="login-form-container">
           <form onSubmit={this.handleSubmit} className="login-form-box">
-            <h3>Log in</h3>
+            <h3>Connect</h3>
             <br/>
             {this.renderErrors()}
             <div className="login-form">
@@ -75,12 +75,7 @@ class LoginForm extends React.Component {
               <input className="session-submit" type="submit" value={this.props.formType} />
             </div>
           </form>
-          <h6>or</h6>
-          <br/>
-          <div className="demologin">
-            <button onClick={this.handleDemoLogin}>Demo login</button>
-          </div>
-          <div className="login_link_singup">New to AppStarter? {this.props.navLink}</div>
+          <div className="login_link_singup">Don't have an account?<br/>{this.props.navLink}</div>
         </div>
     </div>
     );

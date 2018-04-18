@@ -3,7 +3,7 @@
   flex-direction: column;
   background: white;
   width: 390px;
-  height: 650px;
+  padding-bottom: 50px;
   margin: 0 auto;
   margin-top: 55px;
   border: solid #f0f0f0 0.5px;
@@ -92,14 +92,8 @@
   }
 
   .signup_link_login {
-    position: relative;
-    top: 7%;
-    transform: translateY(-93%);
     font-size: 15px;
-    // border-bottom: solid #f0f0f0 1px;
-    width: 355px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 
     a {
       font-weight: bolder;
@@ -110,6 +104,7 @@
 
   .sign-form-box {
     padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 15px;
 
     a {

@@ -48,14 +48,14 @@ class NavBar extends React.Component {
     return (
       <nav>
         <section className="leftnavbar">
-          <Link to="/explore">Explore</Link>
-          <Link to="/project/new">Start a project</Link>
+          {/* <Link to="/explore">Explore</Link>
+          <Link to="/project/new">Start a project</Link> */}
         </section>
         <section className="midNavbar">
-          <h2>{<Link to="/">APPSTARTER</Link>}</h2>
+          <h2>{<Link to="/">re : share</Link>}</h2>
         </section>
         <section className="rightNavbar">
-          <a onClick={this.openSearchDisplay}>Search</a>
+          {/* <a onClick={this.openSearchDisplay}>Search</a> */}
           <Greeting />
         </section>
         {this.dislayXmark()}
@@ -64,7 +64,5 @@ class NavBar extends React.Component {
     )
   }
 };
-
-
 
 export default NavBar;

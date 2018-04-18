@@ -114,7 +114,7 @@ class ProjectViewPage extends React.Component {
                       )
                     }</ul>
                 ) : (
-                  <Link to="/login"><ul className="rewardslist" ref={(ul) => { this.rewardslist = ul; }}>
+                  <Link to="/connect"><ul className="rewardslist" ref={(ul) => { this.rewardslist = ul; }}>
                     {(this.props.project.backings.length === 0) ?
                       (this.props.rewards.map( (reward) => <li key={`reard-${reward.id}`}>
                         <h3>{reward.title}</h3>

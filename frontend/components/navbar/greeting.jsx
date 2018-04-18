@@ -19,7 +19,7 @@ class Greeting extends React.Component {
   render() {
     return (
       <div>
-      {this.props.currentUser ? (<a className="nav-logout" onClick={() => this.logoutUser() }>Log out</a>) : (<Link to="/login">Login</Link>)}
+      {this.props.currentUser ? (<a className="nav-logout" onClick={() => this.logoutUser() }>Disconnect</a>) : (<Link to="/connect">Connect</Link>)}
       </div>
     )
   }
